@@ -46,7 +46,7 @@ end
 
 
 %Add condition: wp-wn-M*x = -c,
-if ~exist('Aeq_full','var')
+if ~exist('Aeq','var')
     Aeq_full=sparse([-M,eye(n),-eye(n)]);
 elseif isempty(Aeq)
     Aeq_full=sparse([-M,eye(n),-eye(n)]);

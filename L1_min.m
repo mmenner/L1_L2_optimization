@@ -9,7 +9,7 @@
 %   the L1 problem. The argument "options" determines the options used for 
 %   the "linprog" solver.
 %
-%Developed by: Marco Menner (marco.menner88@gmail.com)
+% Marco Menner (marco.menner88@gmail.com)
 
 
 function x=L1_min(M,c,A,b,Aeq,beq,lb,ub,options)
